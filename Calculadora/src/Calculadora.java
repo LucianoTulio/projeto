@@ -24,7 +24,7 @@ public class Calculadora {
 			contador++;
 		}
 		
-		return  contador;
+		return 1;
 	}
 
 }

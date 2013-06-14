@@ -66,7 +66,7 @@ public class CalculadoraTest {
 	
 	@Test(timeout=1) 
 	public void tempodeexecussao(){
-		assertEquals("tempo certo",10000, calculadora.tempodeexecussao());
+		assertEquals("tempo certo",1, calculadora.tempodeexecussao());
 	}
 	
 	
@@ -78,9 +78,9 @@ public class CalculadoraTest {
 	}
 	
 	
-	@Ignore("Not yet implemented")
+	@Ignore
     @Test
-    public void testGetAmount() {
+    public void testeIgnorado() {
         System.out.println("Método Não Executara por causa do metadados @Ignore");
         fail("@Ignore não executara JUnit4");
     }
